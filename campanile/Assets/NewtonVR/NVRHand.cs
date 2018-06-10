@@ -642,7 +642,7 @@ namespace NewtonVR
                         break;
 
                     case "vr_controller_vive_1_5":
-                        Transform dk2Trackhat = renderModel.transform.FindChild("trackhat");
+                        Transform dk2Trackhat = renderModel.transform.Find("trackhat");
                         if (dk2Trackhat == null)
                         {
                             dk2Trackhat = new GameObject("trackhat").transform;
