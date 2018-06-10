@@ -67,7 +67,7 @@ namespace NewtonVR
                     break;
 
                 case "vr_controller_vive_1_5":
-                    Transform dk2TrackhatColliders = ModelParent.transform.Find("VivePreColliders");
+                    Transform dk2TrackhatColliders = ModelParent.transform.FindChild("VivePreColliders");
                     if (dk2TrackhatColliders == null)
                     {
                         dk2TrackhatColliders = GameObject.Instantiate(Resources.Load<GameObject>("VivePreColliders")).transform;
@@ -81,7 +81,7 @@ namespace NewtonVR
                     break;
 
                 case "Custom":
-                    Transform customCollidersTransform = PhysicalController.transform.Find("VivePreColliders");
+                    Transform customCollidersTransform = PhysicalController.transform.FindChild("VivePreColliders");
                     if (customCollidersTransform == null)
                     {
                         if (Hand.CustomPhysicalColliders == null)

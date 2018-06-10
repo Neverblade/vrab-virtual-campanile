@@ -24,7 +24,7 @@ public class PlayNotes : MonoBehaviour {
                     mat.SetFloat("_EmissionMap", 10f);
                 }
                 DynamicGI.SetEmissive(renderer, Color.green * 10f);
-                RendererExtensions.UpdateGIMaterials(renderer);
+                DynamicGI.UpdateMaterials(renderer);
                 DynamicGI.UpdateEnvironment();
                 print("Played: " + keys[i].name);
             }
