@@ -7,7 +7,7 @@ public class HitBottom : MonoBehaviour {
     {
         if (other.tag == "Key")
         {
-            print("Stopping key momentum.");
+            Debug.Log("Stopping key momentum.");
             other.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
         }
     }

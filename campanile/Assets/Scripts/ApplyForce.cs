@@ -17,6 +17,7 @@ public class ApplyForce : MonoBehaviour {
 	void Update () {
 	    if (Input.GetKeyDown(KeyCode.Space))
         {
+            Debug.Log("ApplyForce Update Pushed w/ Key Down");
             print("Force applied.");
             rb.AddForce(thrust, thrust, thrust, ForceMode.Impulse);
             sound.Play();

@@ -15,7 +15,7 @@ public class Activator : MonoBehaviour {
     {
         if (other.tag == "Key")
         {
-            print("Entered activation zone.");
+            Debug.Log("Entered activation zone.");
             ready = true;
         }
         
@@ -26,7 +26,7 @@ public class Activator : MonoBehaviour {
     {
         if (other.tag == "Key")
         {
-            print("Exited activation zone.");
+            Debug.Log("Exited activation zone.");
             ready = false;
         }
     }

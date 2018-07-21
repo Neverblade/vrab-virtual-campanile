@@ -26,7 +26,7 @@ public class PlayNotes : MonoBehaviour {
                 DynamicGI.SetEmissive(renderer, Color.green * 10f);
                 DynamicGI.UpdateMaterials(renderer);
                 DynamicGI.UpdateEnvironment();
-                print("Played: " + keys[i].name);
+                Debug.Log("Played: " + keys[i].name);
             }
         }
     }

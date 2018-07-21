@@ -19,7 +19,7 @@ public class AutoPlay : MonoBehaviour {
     {
         if (Time.time - delta > timeSpace)
         {
-            print("Forced applied.");
+            Debug.Log("Forced applied. Val: " + thrust);
             rb.AddForce(0, -thrust, 0, ForceMode.Impulse);
             delta = Time.time;
         }

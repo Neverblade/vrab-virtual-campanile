@@ -19,7 +19,7 @@ public class SoundScript : MonoBehaviour {
         sounder = GetComponent<AudioSource>();
         if (sounder == null)
         {
-            print("AudioSource is still null for object: " + transform.name);
+            Debug.Log("AudioSource is still null for object: " + transform.name);
         }
         min = -offset;
         allowed = true;
@@ -30,12 +30,12 @@ public class SoundScript : MonoBehaviour {
         AudioClip sound = Resources.Load<AudioClip>(fileName);
         if (sound == null)
         {
-            print("Couldn't find resource, which is a problem.");
+            Debug.Log("Couldn't find resource, which is a problem.");
         }
         sounder.clip = sound;
         if (sounder.clip == null)
         {
-            print("We've got more problems.");
+            Debug.Log("We've got more problems.");
         }
 	}
 	
@@ -60,7 +60,7 @@ public class SoundScript : MonoBehaviour {
                     double vol = (value - min) / (maxSpeed - min);
                     if (sounder == null)
                     {
-                        print("BAD STUFF HAPPENED");
+                        Debug.Log("BAD STUFF HAPPENED");
                     }
                     sounder.volume = (float) vol;
                     //print("Playing sound at volume: " + vol);
