@@ -1,6 +1,9 @@
 *.cs linguist-language=C#
 *.rb linguist-language=C#
 
+campanile/Assets/Scripts/* linguist-vendored
+jquery.js linguist-vendored=false
+
 ## Unity ##
 
 *.cs diff=csharp text
