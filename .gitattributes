@@ -1,8 +1,7 @@
 *.cs linguist-language=C#
 *.rb linguist-language=C#
 
-campanile/Assets/Scripts/* linguist-vendored
-jquery.js linguist-vendored=true
+campanile/Assets/Scripts/* linguist-vendored=true
 
 ## Unity ##
 
