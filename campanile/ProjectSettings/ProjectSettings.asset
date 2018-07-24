@@ -528,7 +528,7 @@ PlayerSettings:
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
-    UNet: 1
+    UNet: 0
     Unity_Ads: 0
   cloudProjectId: b3f25a4c-cb85-4b4e-8c79-7c87a3965822
   projectName: Virtual Campanile (1)
