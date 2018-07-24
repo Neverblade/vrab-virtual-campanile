@@ -2,7 +2,7 @@
 *.rb linguist-language=C#
 
 campanile/Assets/Scripts/* linguist-vendored
-jquery.js linguist-vendored=false
+jquery.js linguist-vendored=true
 
 ## Unity ##
 
