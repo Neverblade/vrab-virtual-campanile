@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: 0eeab8b3e2fab3f4b9b8e291ac10adeb
-timeCreated: 1460820380
-licenseType: Free
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: ambientLight1
     100002: birge22:polySurface1
@@ -456,26 +454,384 @@ ModelImporter:
     4300168: polySurface87
     4300170: polySurface88
     9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22_Color_001
+    second: {fileID: 2100000, guid: 8c03687e258e14a30887c537e3cbbf0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22_Color_0010
+    second: {fileID: 2100000, guid: 1f8a484c5495c415e827c999a1c9d90a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22_Color_0011
+    second: {fileID: 2100000, guid: e867055df051b4884b9c1068e020e584, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22_Color_0012
+    second: {fileID: 2100000, guid: 29258ebdd50fb49d1a56ff19751aaa92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22_Color_0014
+    second: {fileID: 2100000, guid: e88fb9ddd0b174c5499dff4d7f6848f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22_Color_0015
+    second: {fileID: 2100000, guid: 7c3ba7f6f32ee44378eeeca4cbfed516, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22_Color_0016
+    second: {fileID: 2100000, guid: 5fe4efc90d3d04f028c025f301df70ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22_Color_10
+    second: {fileID: 2100000, guid: aab22805ffa9344b68b44c36e4333b7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22_Color_11
+    second: {fileID: 2100000, guid: 44697e70dee224022a3d7c5a3ead8db2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22_Color_12
+    second: {fileID: 2100000, guid: b88c38a49e4f4474b8fc694acc16eef8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22_Color_13
+    second: {fileID: 2100000, guid: 3d38b04ae239248159e891b02d95fec9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22_Color_14
+    second: {fileID: 2100000, guid: a25b801f23eec47229646158b675b596, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22_Color_15
+    second: {fileID: 2100000, guid: 9ae73500a432a47189ef5994916aa760, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22_Color_16
+    second: {fileID: 2100000, guid: 454a9cd643a7846fe9c679b6da59e655, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22_Color_9
+    second: {fileID: 2100000, guid: 08ac474e2f6454c5a8c213898270c939, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22_Color_A15
+    second: {fileID: 2100000, guid: 41b99c0ffdbbb4f85a8f5dddcbfa2dbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22_Fencing_Railing_Metal3
+    second: {fileID: 2100000, guid: 63fd5669fd0294524bc866398d313ae6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22__5
+    second: {fileID: 2100000, guid: b96d44d17822f404b998a01044219c0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22__6
+    second: {fileID: 2100000, guid: 6db7588adddc544f7ad4058052d79177, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22__7
+    second: {fileID: 2100000, guid: 75709b4c8fc0f4420b7f38b07182abaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22_roofing1
+    second: {fileID: 2100000, guid: 49c0ced8f5d4049a3a57595d6790322f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birge22_skylights1
+    second: {fileID: 2100000, guid: 504a398dece534b2ea451f8653e1f015, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doe22_FrontColor1
+    second: {fileID: 2100000, guid: 3483fcccf5edb408297b8f57c23eed23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doe22_Material10
+    second: {fileID: 2100000, guid: 2dda1d31cac8e4c179cb47f155776b1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doe22_Material2_1_1
+    second: {fileID: 2100000, guid: 9f2105a905066468eba5dcc7e5b9b824, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doe22_Material3
+    second: {fileID: 2100000, guid: 2590b9145b6e94cedbc62a0c3899a830, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doe22_Material5
+    second: {fileID: 2100000, guid: c18fa606ebf8c414693d8601e8036539, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doe22_Material6
+    second: {fileID: 2100000, guid: bcb00529e58b54364bc6c37a329e77d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doe22_Material8
+    second: {fileID: 2100000, guid: 99160d7e9c3bc4be5be6404da8ad949c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doe22__6
+    second: {fileID: 2100000, guid: bb8fd792c35cc4724940c0941f63f660, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doe22__Concrete_1
+    second: {fileID: 2100000, guid: 1ddf906d70bfe412aa322ccfc0654d13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doe22__Concrete_3
+    second: {fileID: 2100000, guid: 5a30f088d380b4a48b931b7c6085dfd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: doe22__Concrete_rough_1
+    second: {fileID: 2100000, guid: ffea9ed3682cb45d3988e9049573a7c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Color_0010
+    second: {fileID: 2100000, guid: 7c3ba7f6f32ee44378eeeca4cbfed516, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Color_0011
+    second: {fileID: 2100000, guid: 29258ebdd50fb49d1a56ff19751aaa92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Color_0012
+    second: {fileID: 2100000, guid: e88fb9ddd0b174c5499dff4d7f6848f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Color_0014
+    second: {fileID: 2100000, guid: 95d99e03fd9e34842a528d8594223e86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Color_0015
+    second: {fileID: 2100000, guid: 5fe4efc90d3d04f028c025f301df70ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Color_008
+    second: {fileID: 2100000, guid: e867055df051b4884b9c1068e020e584, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Color_009
+    second: {fileID: 2100000, guid: a243fd02d0b6d404c882d14b33e7ceb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Color_10
+    second: {fileID: 2100000, guid: b88c38a49e4f4474b8fc694acc16eef8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Color_11
+    second: {fileID: 2100000, guid: 3d38b04ae239248159e891b02d95fec9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Color_13
+    second: {fileID: 2100000, guid: 454a9cd643a7846fe9c679b6da59e655, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Color_15
+    second: {fileID: 2100000, guid: 08ac474e2f6454c5a8c213898270c939, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Color_16
+    second: {fileID: 2100000, guid: aab22805ffa9344b68b44c36e4333b7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Color_7
+    second: {fileID: 2100000, guid: 9ae73500a432a47189ef5994916aa760, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Color_8
+    second: {fileID: 2100000, guid: a25b801f23eec47229646158b675b596, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Color_9
+    second: {fileID: 2100000, guid: 44697e70dee224022a3d7c5a3ead8db2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Color_A03
+    second: {fileID: 2100000, guid: 6a26dbc643a724a56b88c2fe31994363, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Color_A09
+    second: {fileID: 2100000, guid: c223f309c545c4484a75185a09d0a46c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Color_A20
+    second: {fileID: 2100000, guid: 7fc2baad47ef241b696d7bf506c72f33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Color_A21
+    second: {fileID: 2100000, guid: 79203eb4a33b14f65a28db2dcfb70dd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Color_A22
+    second: {fileID: 2100000, guid: e2fe0522ab8dc42f79f0d957cb7b6003, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Concrete_Block_8x8_Gray1
+    second: {fileID: 2100000, guid: fa3a51089d2824ca182fb7d5cd60aeb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_FrontColor1
+    second: {fileID: 2100000, guid: a9711e1db1176487797a735b67ade4f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Metal_Corrogated_Shiny1
+    second: {fileID: 2100000, guid: 5f72650f415074ceca4447b65a3d8ece, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22_Metal_Panel2
+    second: {fileID: 2100000, guid: 70bcc6f29c413409b9fbe1cfbcf1866e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22__2
+    second: {fileID: 2100000, guid: 43d6faf0d01e04bf09c9170d7f15df6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: steph22__4
+    second: {fileID: 2100000, guid: 6db7588adddc544f7ad4058052d79177, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uc_berkeley_dsung_south_hall_Blinds_Vertical_Pattern1
+    second: {fileID: 2100000, guid: 113e12a3604b841b6ab54f73982b206a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uc_berkeley_dsung_south_hall_Color_006
+    second: {fileID: 2100000, guid: 7c3ba7f6f32ee44378eeeca4cbfed516, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uc_berkeley_dsung_south_hall_Color_007
+    second: {fileID: 2100000, guid: 29258ebdd50fb49d1a56ff19751aaa92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uc_berkeley_dsung_south_hall_Color_008
+    second: {fileID: 2100000, guid: 5fe4efc90d3d04f028c025f301df70ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uc_berkeley_dsung_south_hall_Color_2
+    second: {fileID: 2100000, guid: aab22805ffa9344b68b44c36e4333b7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uc_berkeley_dsung_south_hall_Color_4
+    second: {fileID: 2100000, guid: 3d38b04ae239248159e891b02d95fec9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uc_berkeley_dsung_south_hall_Color_6
+    second: {fileID: 2100000, guid: b88c38a49e4f4474b8fc694acc16eef8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uc_berkeley_dsung_south_hall_Fencing_Railing_Metal3
+    second: {fileID: 2100000, guid: 63fd5669fd0294524bc866398d313ae6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uc_berkeley_dsung_south_hall_FrontColor1
+    second: {fileID: 2100000, guid: 758c1c91bc90844308db5be3e93afd31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uc_berkeley_dsung_south_hall__2
+    second: {fileID: 2100000, guid: 43d6faf0d01e04bf09c9170d7f15df6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: uc_berkeley_dsung_south_hall__4
+    second: {fileID: 2100000, guid: 6db7588adddc544f7ad4058052d79177, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -483,25 +839,34 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.001
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -512,7 +877,10 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
   humanoidOversampling: 1

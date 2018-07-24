@@ -101,9 +101,8 @@ namespace NewtonVR
                     Inputs.Add(buttonType, new NVRButtonInputs());
                 }
             }
-
-            SteamVR_Utils.Event.Listen("render_model_loaded", RenderModelLoaded);
-            SteamVR_Utils.Event.Listen("new_poses_applied", OnNewPosesApplied);
+            //SteamVR_Events.Listen("render_model_loaded", RenderModelLoaded);
+           // SteamVR_Events.Listen("new_poses_applied", OnNewPosesApplied);
         }
 
         private void OnNewPosesApplied(params object[] args)
@@ -642,7 +641,7 @@ namespace NewtonVR
                         break;
 
                     case "vr_controller_vive_1_5":
-                        Transform dk2Trackhat = renderModel.transform.FindChild("trackhat");
+                        Transform dk2Trackhat = renderModel.transform.Find("trackhat");
                         if (dk2Trackhat == null)
                         {
                             dk2Trackhat = new GameObject("trackhat").transform;
@@ -771,8 +770,8 @@ namespace NewtonVR
 
         private void OnDestroy()
         {
-            SteamVR_Utils.Event.Remove("render_model_loaded", RenderModelLoaded);
-            SteamVR_Utils.Event.Remove("new_poses_applied", OnNewPosesApplied);
+            //SteamVR_Utils.Event.Remove("render_model_loaded", RenderModelLoaded);
+            //SteamVR_Utils.Event.Remove("new_poses_applied", OnNewPosesApplied);
         }
 
         public void GetDeviceVelocity(out Vector3 velocity, out Vector3 angularVelocity)
