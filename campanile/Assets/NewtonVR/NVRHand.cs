@@ -10,7 +10,7 @@ namespace NewtonVR
 {
     public class NVRHand : MonoBehaviour
     {
-        private Valve.VR.EVRButtonId HoldButton = EVRButtonId.k_EButton_Grip;
+        private Valve.VR.EVRButtonId HoldButton = EVRButtonId.k_EButton_DPad_Up;
         public bool HoldButtonDown = false;
         public bool HoldButtonUp = false;
         public bool HoldButtonPressed = false;
@@ -134,10 +134,10 @@ namespace NewtonVR
                 button.Value.IsTouched = Controller.GetTouch(button.Key);
             }
 
-            HoldButtonPressed = Inputs[HoldButton].IsPressed;
-            HoldButtonDown = Inputs[HoldButton].PressDown;
-            HoldButtonUp = Inputs[HoldButton].PressUp;
-            HoldButtonAxis = Inputs[HoldButton].SingleAxis;
+            HoldButtonPressed = !Inputs[HoldButton].IsPressed; // INVERTED
+            HoldButtonDown = Inputs[HoldButton].PressUp; // SWAPPED
+            HoldButtonUp = Inputs[HoldButton].PressDown; // SWAPPED
+            HoldButtonAxis = 1 - Inputs[HoldButton].SingleAxis; // INVERTED
 
             UseButtonPressed = Inputs[UseButton].IsPressed;
             UseButtonDown = Inputs[UseButton].PressDown;

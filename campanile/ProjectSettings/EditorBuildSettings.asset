@@ -4,4 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Campanile.unity
+    guid: 292fe1bfffaccad4a813eec47b45d104
+  m_configObjects: {}

@@ -66,14 +66,14 @@ namespace NewtonVR
             if (FixedState == true)
             {
                 this.transform.localEulerAngles = Vector3.zero;
-                OnButtonRenderer.material.color = Color.yellow;
-                OffButtonRenderer.material.color = Color.white;
+                //OnButtonRenderer.material.color = Color.yellow;
+                //OffButtonRenderer.material.color = Color.white;
             }
             else
             {
                 this.transform.localEulerAngles = new Vector3(0, 0, -15);
-                OnButtonRenderer.material.color = Color.white;
-                OffButtonRenderer.material.color = Color.red;
+                //OnButtonRenderer.material.color = Color.white;
+                //OffButtonRenderer.material.color = Color.red;
             }
 
             Rigidbody.angularVelocity = Vector3.zero;
